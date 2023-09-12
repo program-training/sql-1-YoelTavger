@@ -2,7 +2,10 @@
 
 1.  SELECT product_id, product_name, category_id FROM products
     where unit_price > 50
-2.
+
+2.  SELECT * FROM customers 
+    where 	country = 'Germany'
+    
 3.
 4.
 5.
