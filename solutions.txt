@@ -71,7 +71,9 @@
 20. SELECT product_name, units_in_stock
     FROM products;
     
-21. 
+21. SELECT product_id, product_name, unit_price
+    FROM products
+    WHERE unit_price > (SELECT AVG(unit_price) FROM products);
     
 22. 
     
