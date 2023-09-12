@@ -21,9 +21,11 @@
 6.  SELECT *
     FROM employees
     WHERE EXTRACT(YEAR FROM birth_date) < 1960;
+
+7.  SELECT *
+    FROM products
+    WHERE discontinued = 0;
         
-7.  
-    
 8.  
     
 9.  
