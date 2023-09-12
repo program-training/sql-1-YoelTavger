@@ -67,8 +67,9 @@
 19. SELECT *
     FROM orders
     WHERE order_date = '1997-05-05';
-        
-20. 
+
+20. SELECT product_name, units_in_stock
+    FROM products;
     
 21. 
     
