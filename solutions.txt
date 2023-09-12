@@ -50,7 +50,8 @@
     ORDER BY unit_price DESC
     LIMIT 1;
     
-15. 
+15. SELECT AVG(EXTRACT(YEAR FROM age(CURRENT_DATE, birth_date)))
+    FROM Employees;
     
 16. 
     
