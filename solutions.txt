@@ -31,7 +31,7 @@
 9.  SELECT units_in_stock * unit_price FROM products
     WHERE product_id = 1;
     
-10. 
+10. SELECT COUNT(DISTINCT category_id) FROM products;
     
 11. 
     
