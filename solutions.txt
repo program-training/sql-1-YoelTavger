@@ -64,8 +64,10 @@
 18. SELECT MAX(unit_price) as HighestPrice, MIN(unit_price) as LowestPrice 
     FROM products;
     
-19. 
-    
+19. SELECT *
+    FROM orders
+    WHERE order_date = '1997-05-05';
+        
 20. 
     
 21. 
