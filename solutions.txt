@@ -9,8 +9,10 @@
 3.  SELECT * FROM orders
     where 	customer_id  = 'VINET';
 
-4.  
-    
+4.  SELECT customer_id, SUM(freight) AS TotalOrders
+    FROM orders
+    GROUP BY customer_id;
+
 5.  
     
 6.  
