@@ -24,11 +24,12 @@
 
 7.  SELECT *
     FROM products
-    WHERE discontinued = 0;
+    WHERE units_in_stock = 0;
 
 8.  SELECT COUNT(unit_price) FROM products;
     
-9.  
+9.  SELECT units_in_stock * unit_price FROM products
+    WHERE product_id = 1;
     
 10. 
     
