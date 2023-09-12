@@ -25,8 +25,8 @@
 7.  SELECT *
     FROM products
     WHERE discontinued = 0;
-        
-8.  
+
+8.  SELECT COUNT(unit_price) FROM products;
     
 9.  
     
