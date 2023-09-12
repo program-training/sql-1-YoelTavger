@@ -75,5 +75,7 @@
     FROM products
     WHERE unit_price > (SELECT AVG(unit_price) FROM products);
     
-22. 
+22. SELECT city, COUNT(city)
+    FROM employees
+    GROUP BY city;
     
